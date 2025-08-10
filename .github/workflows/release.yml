@@ -10,13 +10,15 @@
       release:
         permissions:
           contents: write # Required for creating releases and tags
+          issues: write # To comment on issues
+          pull-requests: write # To comment on pull requests
         runs-on: ubuntu-latest
         steps:
           - name: Checkout Repository
-            uses: actions/checkout@v3
+            uses: actions/checkout@v4
 
           - name: Set up Node.js
-            uses: actions/setup-node@v3
+            uses: actions/setup-node@v4
             with:
               node-version: "20.x" # Adjust as needed
 
