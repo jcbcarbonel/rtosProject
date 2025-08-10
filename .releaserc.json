@@ -1,8 +1,10 @@
-    {
-      "branches": ["dev"],
-      "plugins": [
+    // .releaserc.js
+    module.exports = {
+      branches: ["main"], // Or your default branch
+      plugins: [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
-        "@semantic-release/github"
-      ]
-    }
+        "@semantic-release/npm",
+        "@semantic-release/github",
+      ],
+    };
