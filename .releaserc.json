@@ -1,6 +1,6 @@
     // .releaserc.js
     module.exports = {
-      branches: ["main"], // Or your default branch
+      branches: ["dev"], // Or your default branch
       plugins: [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
