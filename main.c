@@ -1,11 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "btd200\btd200.h"
 
-
-void printline(const char *line){
-    printf("%s\n", line);
-}
-
 int main(){
-    printline("subscribe");
+
+    read_sensor_msg();
+
+
+
+
+    return 0;
 }
