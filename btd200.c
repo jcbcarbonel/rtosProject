@@ -1,6 +1,7 @@
+#include <stdio.h>
 #include "btd200.h"
 
-void read_sensor_msg(){
+void read_sensor_data(){
        // Prompt the user to enter a character
     printf("\nEnter a the header and bytecount: \n");
 
